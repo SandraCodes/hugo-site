@@ -1,0 +1,19 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "My new Victor-Hugo site"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[params]
+  
+  bio = "Bio will go here"
+  tech = ["JS", "CSS", "HTML", "React", "Hugo", "GatsbyJS", "A11y", "JAMstack", "Netlify", "Contentful"]
+  social = "Social links will go here"
+
+  [params.profile]
+    description = "My awesome alt text"
+    image = "https://picsum.photos/200/300/?random"
